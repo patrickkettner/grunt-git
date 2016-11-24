@@ -1114,5 +1114,18 @@ Default value: true.
 
 Whether or not to include merges in the logs.
 
+#### options.noWalk
+Type: `Boolean`
+Default value: false.
+
+Only show the given commits, and do no traverse their ancestors. Has NO effect if `to` or `from` is also specified.
+
+#### options.tags
+Type: `Boolean`
+Default value: false.
+
+Only list all tagged commits
+
+
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
